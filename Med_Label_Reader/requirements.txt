@@ -1,0 +1,11 @@
+Flask==2.0.3
+Flask-Cors==3.0.10
+google.auth
+google-cloud-vision
+google-cloud-storage
+Pillow==6.0.0
+opencv-python
+numpy
+pandas
+
+
