@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name ="width_height_image_view_home_tab">260dp</dimen>
+    <dimen name ="width_height_bar_code_scan_image_home_tab">150dp</dimen>
+</resources>

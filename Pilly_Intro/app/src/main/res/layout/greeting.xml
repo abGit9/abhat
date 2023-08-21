@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/dismiss"
+        android:text="Dismiss"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack" />
+
+    <ImageView
+        android:id="@+id/human_greeting_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/human_greeting" />
+
+    <ImageView
+        android:id="@+id/searchImage"
+        android:layout_width="@dimen/width_height_image_view_home_tab"
+        android:layout_height="@dimen/width_height_image_view_home_tab"
+        android:layout_marginTop="40dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/search_page_home_tab" />
+
+
+    <ImageView
+        android:id="@+id/barCodeScanImage"
+        android:layout_width="@dimen/width_height_bar_code_scan_image_home_tab"
+        android:layout_height="@dimen/width_height_bar_code_scan_image_home_tab"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/barcode_scan_page_home_tab" />
+
+    <ImageView
+        android:id="@+id/silhoutteImage"
+        android:layout_width="@dimen/width_height_image_view_home_tab"
+        android:layout_height="@dimen/width_height_image_view_home_tab"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/silhouette_person" />
+
+    <TextView
+        android:id="@+id/orTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="or..."
+        android:textSize="50sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:alpha="0"
+        android:text="pill Time"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="60dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txt_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0"
+        android:text="Or.."
+        android:textSize="70dp"
+        android:visibility="visible" />
+
+    <com.panacea.pilly_intro.TextCharacterRevealView
+        android:id="@+id/txt_youCan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+    <com.panacea.pilly_intro.TextCharacterRevealView
+        android:id="@+id/txt_hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="visible" />
+
+    <com.panacea.pilly_intro.TextCharacterRevealView
+        android:id="@+id/txt_pilly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/txt_hi"
+        android:layout_toRightOf="@+id/txt_hi"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="visible" />
+
+    <com.panacea.pilly_intro.TextCharacterRevealView
+        android:id="@+id/txt_search_a_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchImage"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible" />
+
+    <com.panacea.pilly_intro.TextCharacterRevealView
+        android:id="@+id/txt_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="visible" />
+
+    <com.panacea.pilly_intro.TextCharacterRevealView
+        android:id="@+id/txt_scan_a_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible" />
+
+    <com.panacea.pilly_intro.TextCharacterRevealView
+        android:id="@+id/txt_be_on_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+</RelativeLayout>
