@@ -7,7 +7,11 @@
 
 This repo consists of code from the intro to my Pilly Application(Android). A video of the intro running in the app on my mobile phone is posted below.
 
-https://user-images.githubusercontent.com/50727486/167315126-dbe32c6f-a588-4772-808c-89d17e728c98.mp4
+
+
+https://github.com/abgit321/abhat/assets/50727486/17227cb6-0bf2-4bde-9884-ae972b7e4635
+
+
 
 To learn more about Pilly and its features visit my website:
 https://abhat.io/app/software/mobile/mobile.html
