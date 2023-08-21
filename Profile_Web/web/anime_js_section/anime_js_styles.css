@@ -1,0 +1,48 @@
+
+  #title_anime_js{
+    font-weight:400;
+    font-size: 90px;   
+    font-family:  Roboto, sans-serif;
+    align-self: center;
+    justify-self: center;
+    color: #F8F1FF;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .wave_elements{
+    height: 0px;
+    width:  6px;
+    position: relative;
+    align-self: center;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  #wave_container{ 
+    width: fit-content; 
+    display: flex;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    justify-self: center;
+    align-self: center;
+  }
+
+  #txt_anime_js{
+    width: 80%;
+    height: auto;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    align-self: center;
+    justify-self: center;
+    text-indent: 50px;
+    font-weight:300;
+    font-size: 35px;   
+    font-family:  Roboto, sans-serif;
+    color: white;
+  }
